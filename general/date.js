@@ -3,6 +3,6 @@
 
 var today = new Date();
 var day = today.getDay();
-var daylist = ["Lunes", "Martes", "Miercoles", "Jueves ", "Viernes", "Sabado", "Domingo"];
+var daylist = ["Domingo", "Lunes", "Martes", "Miercoles", "Jueves ", "Viernes", "Sabado"];
 
 console.log("Hoy es : " + daylist[day] + ".");
